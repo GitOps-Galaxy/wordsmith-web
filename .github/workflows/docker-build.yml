@@ -12,8 +12,7 @@ jobs:
   build-image:
     name: Build Image
     runs-on: ubuntu-latest
-    steps:
-            
+    steps:      
      - name: Login to GHCR
       uses: docker/login-action@v2
        with:
