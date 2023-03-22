@@ -7,3 +7,5 @@ jobs:
   scan:
     name: Scan
     uses: gitops-galaxy/actions/.github/workflows/reusable-trivy.yml@main
+    with:
+      image: 'ghcr.io/gitops-galaxy/wordsmith-web:latest'
