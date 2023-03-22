@@ -6,4 +6,4 @@ on:
 jobs:
   scan:
     name: Scan
-    uses: gitops-galaxy/wordsmith-web/.github/workflows/reusable-trivy.yml@main
+    uses: gitops-galaxy/actions/.github/workflows/reusable-trivy.yml@main
